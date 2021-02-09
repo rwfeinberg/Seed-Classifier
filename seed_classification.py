@@ -73,13 +73,10 @@ train_loader = DataLoader(dataset=train_set, batch_size=batch_size, shuffle=True
 val_loader = DataLoader(dataset=val_set, batch_size=batch_size, shuffle=True)
 test_loader = DataLoader(dataset=test_set, batch_size=batch_size, shuffle=True)
 
-# Let's visualize data from our validation to make sure it's loaded correctly.
+# Visualize data from our validation to make sure it's loaded correctly.
 # Each time this is run, a random sample will be viewed.
 dataiter = iter(val_loader)
 images, labels = dataiter.next()
-
-# Making sure the dimensions of the image and label tensors are as expected
-# is critical, since otherwise you'll be faced with a slew of dimension errors.
 
 # We should see the image shape listed as [batch_size, channels, height, width]
 # and label shape as [batch_size,]
@@ -153,8 +150,7 @@ for images, labels in train_loader:
   print(test_tensor.size())
   break
 
-# Commented out IPython magic to ensure Python compatibility.
-# Training loop w/ specified number of passes through the data
+    
 num_passes = 100
 
 loss_values = []
