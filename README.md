@@ -19,3 +19,12 @@ Only works for seedlings of the following 12 species:
 
 * The .py file is the python implementation code. 
 * The .ipynb file is the Google Colab, Jupiter Notebook file of the same code, **complete with sample images of the data as well as graphical results**.
+
+### Pictures
+# Sample Image:
+![sampleimage](https://user-images.githubusercontent.com/66392115/116020932-38a82600-a615-11eb-8fc7-9cd97433d0c0.png)
+
+
+# Results of training:
+
+![results](https://user-images.githubusercontent.com/66392115/116020960-46f64200-a615-11eb-8ed4-a7d51bd6e7fe.png)
